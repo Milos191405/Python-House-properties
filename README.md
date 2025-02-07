@@ -5,8 +5,8 @@ This project analyzes the housing market in King County, Washington, using a dat
 
 ## Questions Explored  
 1. **Waterfront Effect**: Is there a significant price difference between waterfront and non-waterfront houses? Are we paying just for the view?  
-2. **Renovation Impact**: How does renovation affect house prices?  
-3. **Build Year Influence**: Does the year a house was built impact its price?  
+2. **Build Year Influence**: Does the year a house was built impact its price? 
+3. **Renovation Impact**: How does renovation affect house prices?  
 4. **Price by Postal Code**: Which areas in King County are more affordable?  
 
 ## Approach  
