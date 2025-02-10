@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c9a05c80354d958eb586d5dbd738d153 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c9a05c80354d958eb586d5dbd738d153" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c9a05c80354d958eb586d5dbd738d153 = L.map(
+                "map_c9a05c80354d958eb586d5dbd738d153",
+                {
+                    center: [47.56005251931708, -122.21389640494147],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_522b1e3dd6607713e378e2b62c492db9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_522b1e3dd6607713e378e2b62c492db9.addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var marker_c7a9443797f27378091b3086196a5cef = L.marker(
+                [47.62584000000001, -122.23354],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var icon_6ce709ec66539b03bcca89763ca83012 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c7a9443797f27378091b3086196a5cef.setIcon(icon_6ce709ec66539b03bcca89763ca83012);
+        
+    
+        var popup_d5788ec8b2c2a0a2d5710def8f1ce356 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59ab477e9d87b03d2dd0c8640dbfc5e3 = $(`<div id="html_59ab477e9d87b03d2dd0c8640dbfc5e3" style="width: 100.0%; height: 100.0%;">Zip Code: 98039<br>Avg Price: 2,160,606.6<br>Avg Bedrooms: 4.06</div>`)[0];
+                popup_d5788ec8b2c2a0a2d5710def8f1ce356.setContent(html_59ab477e9d87b03d2dd0c8640dbfc5e3);
+            
+        
+
+        marker_c7a9443797f27378091b3086196a5cef.bindPopup(popup_d5788ec8b2c2a0a2d5710def8f1ce356)
+        ;
+
+        
+    
+    
+            var marker_e8d0654f65e2f1cca14483c5f0c80c6a = L.marker(
+                [47.62584000000001, -122.23354],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var div_icon_806533ebe0c72470ac0afc4cf3345502 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; color: blue;\"\u003e\u003cb\u003e1\u003c/b\u003e\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_e8d0654f65e2f1cca14483c5f0c80c6a.setIcon(div_icon_806533ebe0c72470ac0afc4cf3345502);
+        
+    
+            var marker_eeaf84d6252bfcb4e4e5582c83aaa792 = L.marker(
+                [47.6161832807571, -122.20518927444795],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var icon_d04d78646ccb9ae37dd21e1807f00efd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_eeaf84d6252bfcb4e4e5582c83aaa792.setIcon(icon_d04d78646ccb9ae37dd21e1807f00efd);
+        
+    
+        var popup_89041d309e8b0e4dabb6e8f3a3232a5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a9391caf7848438fae879f4cbc64d38 = $(`<div id="html_3a9391caf7848438fae879f4cbc64d38" style="width: 100.0%; height: 100.0%;">Zip Code: 98004<br>Avg Price: 1,355,927.0820189274<br>Avg Bedrooms: 3.854889589905363</div>`)[0];
+                popup_89041d309e8b0e4dabb6e8f3a3232a5d.setContent(html_3a9391caf7848438fae879f4cbc64d38);
+            
+        
+
+        marker_eeaf84d6252bfcb4e4e5582c83aaa792.bindPopup(popup_89041d309e8b0e4dabb6e8f3a3232a5d)
+        ;
+
+        
+    
+    
+            var marker_d6ceb1960bd30efc28021acee73b84a7 = L.marker(
+                [47.6161832807571, -122.20518927444795],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var div_icon_1b779af117528dc07548c82f54ea1450 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; color: green;\"\u003e\u003cb\u003e2\u003c/b\u003e\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_d6ceb1960bd30efc28021acee73b84a7.setIcon(div_icon_1b779af117528dc07548c82f54ea1450);
+        
+    
+            var marker_fba3ed8c5809aa5f90597beaf08275b4 = L.marker(
+                [47.55984609929078, -122.22559219858155],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var icon_7470721fd07e767fc93786aefeb5c691 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fba3ed8c5809aa5f90597beaf08275b4.setIcon(icon_7470721fd07e767fc93786aefeb5c691);
+        
+    
+        var popup_4eed204e0f61047da9eb4953c7c2ef27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0740004416845ecd41465fb56e944b84 = $(`<div id="html_0740004416845ecd41465fb56e944b84" style="width: 100.0%; height: 100.0%;">Zip Code: 98040<br>Avg Price: 1,194,230.0212765958<br>Avg Bedrooms: 4.028368794326241</div>`)[0];
+                popup_4eed204e0f61047da9eb4953c7c2ef27.setContent(html_0740004416845ecd41465fb56e944b84);
+            
+        
+
+        marker_fba3ed8c5809aa5f90597beaf08275b4.bindPopup(popup_4eed204e0f61047da9eb4953c7c2ef27)
+        ;
+
+        
+    
+    
+            var marker_1959fdad79541338c64bea25c13caf33 = L.marker(
+                [47.55984609929078, -122.22559219858155],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var div_icon_4ea411f11a98f26c39192276e030b15d = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; color: red;\"\u003e\u003cb\u003e3\u003c/b\u003e\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_1959fdad79541338c64bea25c13caf33.setIcon(div_icon_4ea411f11a98f26c39192276e030b15d);
+        
+    
+            var marker_b4ef31b7e545ddd33168249713378192 = L.marker(
+                [47.6296185873606, -122.29786617100373],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var icon_b6b80943cc2f0ef6b61972295ebd7d87 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b4ef31b7e545ddd33168249713378192.setIcon(icon_b6b80943cc2f0ef6b61972295ebd7d87);
+        
+    
+        var popup_0d6d5b3f9e8006b2070cc39170b46648 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_364c160a1f0bd84b8b4fc92348180364 = $(`<div id="html_364c160a1f0bd84b8b4fc92348180364" style="width: 100.0%; height: 100.0%;">Zip Code: 98112<br>Avg Price: 1,095,499.342007435<br>Avg Bedrooms: 3.509293680297398</div>`)[0];
+                popup_0d6d5b3f9e8006b2070cc39170b46648.setContent(html_364c160a1f0bd84b8b4fc92348180364);
+            
+        
+
+        marker_b4ef31b7e545ddd33168249713378192.bindPopup(popup_0d6d5b3f9e8006b2070cc39170b46648)
+        ;
+
+        
+    
+    
+            var marker_49b1fcad659262da2cf80d03da573771 = L.marker(
+                [47.6296185873606, -122.29786617100373],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var div_icon_c412f50be5e2ced5c995e4ca37d3ff1a = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; color: purple;\"\u003e\u003cb\u003e4\u003c/b\u003e\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_49b1fcad659262da2cf80d03da573771.setIcon(div_icon_c412f50be5e2ced5c995e4ca37d3ff1a);
+        
+    
+            var marker_bafc569f84db1b000e4c1c8e6885434b = L.marker(
+                [47.63460666666667, -122.32224761904762],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var icon_387d8b39d8ef8ceb6acfa941ca0be73d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bafc569f84db1b000e4c1c8e6885434b.setIcon(icon_387d8b39d8ef8ceb6acfa941ca0be73d);
+        
+    
+        var popup_b21cd108b5f412f85fa7f26738732c90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_059dfea639ef481d713777a410c12a68 = $(`<div id="html_059dfea639ef481d713777a410c12a68" style="width: 100.0%; height: 100.0%;">Zip Code: 98102<br>Avg Price: 901,258.2666666667<br>Avg Bedrooms: 3.219047619047619</div>`)[0];
+                popup_b21cd108b5f412f85fa7f26738732c90.setContent(html_059dfea639ef481d713777a410c12a68);
+            
+        
+
+        marker_bafc569f84db1b000e4c1c8e6885434b.bindPopup(popup_b21cd108b5f412f85fa7f26738732c90)
+        ;
+
+        
+    
+    
+            var marker_9dff8d54db4788870e0afc4d4e1b2658 = L.marker(
+                [47.63460666666667, -122.32224761904762],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var div_icon_77878ea03bf22c83f40e2a2916e43b11 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; color: orange;\"\u003e\u003cb\u003e5\u003c/b\u003e\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_9dff8d54db4788870e0afc4d4e1b2658.setIcon(div_icon_77878ea03bf22c83f40e2a2916e43b11);
+        
+    
+            var marker_605d2dcbeee99789763836d0c38a4700 = L.marker(
+                [47.63560183486238, -122.35009174311925],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var icon_e71885ee27a1692d8d3e744c592f82af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_605d2dcbeee99789763836d0c38a4700.setIcon(icon_e71885ee27a1692d8d3e744c592f82af);
+        
+    
+        var popup_3f70eb63d8d018f180a924db3865479f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c957f3cd64d8df9cea9ffb5888d02cf = $(`<div id="html_3c957f3cd64d8df9cea9ffb5888d02cf" style="width: 100.0%; height: 100.0%;">Zip Code: 98109<br>Avg Price: 879,623.6238532111<br>Avg Bedrooms: 3.1926605504587156</div>`)[0];
+                popup_3f70eb63d8d018f180a924db3865479f.setContent(html_3c957f3cd64d8df9cea9ffb5888d02cf);
+            
+        
+
+        marker_605d2dcbeee99789763836d0c38a4700.bindPopup(popup_3f70eb63d8d018f180a924db3865479f)
+        ;
+
+        
+    
+    
+            var marker_874dfcdd9ee93a92cc965da70353d9f3 = L.marker(
+                [47.63560183486238, -122.35009174311925],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var div_icon_41dec9ea676303837da5d4765ee2f3c8 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; color: darkblue;\"\u003e\u003cb\u003e6\u003c/b\u003e\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_874dfcdd9ee93a92cc965da70353d9f3.setIcon(div_icon_41dec9ea676303837da5d4765ee2f3c8);
+        
+    
+            var marker_42f69f7d6fb1bb8b2ec6d75d5271593c = L.marker(
+                [47.66506681222707, -122.29434061135372],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var icon_9ec601d1dfb206e6bbd337979034f817 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_42f69f7d6fb1bb8b2ec6d75d5271593c.setIcon(icon_9ec601d1dfb206e6bbd337979034f817);
+        
+    
+        var popup_320e25b267641a206c4effdc547483dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_310ea710eef1ff121d4a8deff838775f = $(`<div id="html_310ea710eef1ff121d4a8deff838775f" style="width: 100.0%; height: 100.0%;">Zip Code: 98105<br>Avg Price: 862,825.2314410481<br>Avg Bedrooms: 3.5807860262008733</div>`)[0];
+                popup_320e25b267641a206c4effdc547483dc.setContent(html_310ea710eef1ff121d4a8deff838775f);
+            
+        
+
+        marker_42f69f7d6fb1bb8b2ec6d75d5271593c.bindPopup(popup_320e25b267641a206c4effdc547483dc)
+        ;
+
+        
+    
+    
+            var marker_8c43a442bf644f16201759aad62f8e04 = L.marker(
+                [47.66506681222707, -122.29434061135372],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var div_icon_2e8f206b99e36289f11de7eac8b9b5bb = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; color: lightgreen;\"\u003e\u003cb\u003e7\u003c/b\u003e\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_8c43a442bf644f16201759aad62f8e04.setIcon(div_icon_2e8f206b99e36289f11de7eac8b9b5bb);
+        
+    
+            var marker_07ea71ce4d31c389a2d1754df2fbae41 = L.marker(
+                [47.55802168674699, -122.14683935742973],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var icon_f084cd8d1e4c0cc6eb037794e0941f26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_07ea71ce4d31c389a2d1754df2fbae41.setIcon(icon_f084cd8d1e4c0cc6eb037794e0941f26);
+        
+    
+        var popup_d5d33b0f52d09aaadc895cc1a0be5d9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a53926b5106fc80a7c83cd6192d8fda = $(`<div id="html_6a53926b5106fc80a7c83cd6192d8fda" style="width: 100.0%; height: 100.0%;">Zip Code: 98006<br>Avg Price: 859,684.7791164658<br>Avg Bedrooms: 3.8413654618473894</div>`)[0];
+                popup_d5d33b0f52d09aaadc895cc1a0be5d9a.setContent(html_6a53926b5106fc80a7c83cd6192d8fda);
+            
+        
+
+        marker_07ea71ce4d31c389a2d1754df2fbae41.bindPopup(popup_d5d33b0f52d09aaadc895cc1a0be5d9a)
+        ;
+
+        
+    
+    
+            var marker_7c962a9a2c33a51a7cc7156df6be935d = L.marker(
+                [47.55802168674699, -122.14683935742973],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var div_icon_3f6e76383fdea5cb2bcc633da5d8a3de = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; color: pink;\"\u003e\u003cb\u003e8\u003c/b\u003e\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_7c962a9a2c33a51a7cc7156df6be935d.setIcon(div_icon_3f6e76383fdea5cb2bcc633da5d8a3de);
+        
+    
+            var marker_e8a7123b4520c58106bf11da618fadb0 = L.marker(
+                [47.64003423913043, -122.36691847826087],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var icon_cbbcbf4bd7e5a4e344d64497b17e08b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e8a7123b4520c58106bf11da618fadb0.setIcon(icon_cbbcbf4bd7e5a4e344d64497b17e08b0);
+        
+    
+        var popup_b348a36d87189140b06ba3d69944d194 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a081efde0e979a127aa926cba0f423e = $(`<div id="html_7a081efde0e979a127aa926cba0f423e" style="width: 100.0%; height: 100.0%;">Zip Code: 98119<br>Avg Price: 849,448.0163043478<br>Avg Bedrooms: 3.260869565217391</div>`)[0];
+                popup_b348a36d87189140b06ba3d69944d194.setContent(html_7a081efde0e979a127aa926cba0f423e);
+            
+        
+
+        marker_e8a7123b4520c58106bf11da618fadb0.bindPopup(popup_b348a36d87189140b06ba3d69944d194)
+        ;
+
+        
+    
+    
+            var marker_d04574be5a6c89ad8534c2f4abcd3930 = L.marker(
+                [47.64003423913043, -122.36691847826087],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var div_icon_b18307da154e459878f3dfea7f5e1ccf = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; color: yellow;\"\u003e\u003cb\u003e9\u003c/b\u003e\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_d04574be5a6c89ad8534c2f4abcd3930.setIcon(div_icon_b18307da154e459878f3dfea7f5e1ccf);
+        
+    
+            var marker_4f301d5bd331bf8f301cb9ebd7246408 = L.marker(
+                [47.61153154761905, -122.16726785714287],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var icon_82f3c0b4fc83f52246c13a8a959e027a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4f301d5bd331bf8f301cb9ebd7246408.setIcon(icon_82f3c0b4fc83f52246c13a8a959e027a);
+        
+    
+        var popup_8441870e91564d5ff355d56546c2f61b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ab57fd144e68b98a524e18fffc67f89 = $(`<div id="html_6ab57fd144e68b98a524e18fffc67f89" style="width: 100.0%; height: 100.0%;">Zip Code: 98005<br>Avg Price: 810,164.875<br>Avg Bedrooms: 3.8511904761904763</div>`)[0];
+                popup_8441870e91564d5ff355d56546c2f61b.setContent(html_6ab57fd144e68b98a524e18fffc67f89);
+            
+        
+
+        marker_4f301d5bd331bf8f301cb9ebd7246408.bindPopup(popup_8441870e91564d5ff355d56546c2f61b)
+        ;
+
+        
+    
+    
+            var marker_ae47d69f02984ad8427eaedacd9e157d = L.marker(
+                [47.61153154761905, -122.16726785714287],
+                {
+}
+            ).addTo(map_c9a05c80354d958eb586d5dbd738d153);
+        
+    
+            var div_icon_06c23773dfe45d9aca507d574d362149 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12pt; color: darkred;\"\u003e\u003cb\u003e10\u003c/b\u003e\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_ae47d69f02984ad8427eaedacd9e157d.setIcon(div_icon_06c23773dfe45d9aca507d574d362149);
+        
+</script>
+</html>
